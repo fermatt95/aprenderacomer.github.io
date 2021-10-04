@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang= "es"> 
+<head>
+    <meta charset= "UTF-8"/>
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="mailto: fermattalia@hotmail.com" method="get" target="_blank">
+        <label for="nombre">Nombre: </label>
+        <input type= "text" name= "nombre" placeholder= "Ingrese su nombre aqui">
+        <br>
+        <br>
+        <label for="apellido">Apellido: </label>
+        <input type= "text" name= "apellido" placeholder= "Ingrese su apellido aqui">
+        <br>
+        <br>
+        <label for="contraseña">Contraseña: </label>
+        <input type= "password" name= "Contraseña" placeholder= "Ingrese su contraseña aqui" >
+        <br>
+        <br>
+        <p>
+            Género
+            <br>
+            <br>    
+            Hombre
+            <input type="radio" name= Genero value= Hombre checked>
+            Mujer
+            <input type="radio" name= Genero value= Mujer>
+        </p>
+        <p>
+            Estudios
+                <select id= "estudios" name="estudios" >
+                    <option value= "Primaria">Primaria</option> 
+                    <option value= "Secundaria">Secudaria</option> 
+                    <option value= "Terciario">Terciario</option> 
+        </select>
+        <br>
+        <br>
+        <br>
+        <input type= "submit" value="ENVIAR">
+        
+    </form>
+
+</body>
+
+</html>
